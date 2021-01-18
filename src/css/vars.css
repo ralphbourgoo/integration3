@@ -1,0 +1,37 @@
+:root {
+  /* colors */
+  --primary: #0e0e0e;
+  --secondary: #171717;
+  --fontColor: #e2e2e2;
+  --menuColor: #efeded;
+  --white: white;
+  --shadow: 0 .4rem .4rem rgba(0, 0, 0, .25);
+  --gradientBanners: linear-gradient(180deg, rgba(35, 35, 35, 0) 0%, #232323 62.1%);
+  --shadow100: 0 .4rem .4rem black;
+  /* fontfamilies */
+  --avenir: avenir, sans-serif;
+  --avenirLight: avenir-light, sans-serif;
+  --avenirMedium: avenir-medium, sans-serif;
+  --avenirHeavy: avenir-heavy, sans-serif;
+  --avenirBlack: avenir-black, sans-serif;
+  /* fontsizes */
+  --titleBig: 5rem;
+  --sizeTitle: 3.5rem;
+  --sizeSub: 2.3rem;
+  --sizeItem: 2rem;
+  --sizeThird: 1.8rem;
+  --sizeText: 1.2rem;
+  --sizeSkills: 1.4rem;
+  --sizeInfo: 1.2rem;
+  /* margins */
+  --calMargin: 0 3.1rem;
+  --calRmargin: 0 7.48vw;
+}
+
+@custom-media --only-small-screen (width <= 375px);
+@custom-media --only-tablet-screen (width >= 670px);
+@custom-media --only-medium-screen (width >= 768px);
+@custom-media --only-bigger-screen (width >= 910px);
+@custom-media --only-littlebigger-screen (width >= 977px);
+@custom-media --only-extrabigger-screen (width >= 1110px);
+@custom-media --only-large-screen (width >= 1300px);
