@@ -4,11 +4,11 @@ require_once __DIR__ . '/Controller.php';
 
 class TemplateController extends Controller {
 
-  private $projectDAO;
+  // private $projectDAO;
 
-  function __construct() {
-    $this->projectDAO = new ProjectDAO();
-  }
+  // function __construct() {
+  //   $this->projectDAO = new ProjectDAO();
+  // }
 
   public function index() {
     $this->set('title', 'Home');

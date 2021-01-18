@@ -1,0 +1,153 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 2rem;
+  margin-top: 1rem;
+
+  @media (--only-extrabigger-screen) {
+    width: 80vw;
+    margin: 1rem auto;
+  }
+}
+
+.logo {
+  width: 12rem;
+}
+
+.firstmenu__item {
+  margin-top: 12rem;
+
+  @media (--only-bigger-screen) {
+    margin-top: unset;
+  }
+}
+
+.menu__item {
+  margin-bottom: 1.5rem;
+
+  @media (--only-bigger-screen) {
+    margin-bottom: unset;
+  }
+}
+
+.navigation {
+  position: fixed;
+  z-index: 99;
+  right: -100vw;
+  top: 0;
+  background-color: var(--fontColor);
+  width: 100vw;
+  height: 100vh;
+
+  @media (--only-bigger-screen) {
+    position: unset;
+    z-index: unset;
+    right: unset;
+    top: unset;
+    background-color: unset;
+    width: unset;
+    height: unset;
+  }
+}
+
+.navigation__cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+  cursor: pointer;
+  width: 2rem;
+
+  @media (--only-bigger-screen) {
+    display: none;
+  }
+}
+
+.animationHamburgerFadeIn {
+  animation: hamburgerFadeIn ease-in-out .3s;
+  animation-fill-mode: forwards;
+
+  @media (--only-bigger-screen) {
+    display: none;
+  }
+}
+
+.animationHamburgerFadeOut {
+  animation: hamburgerFadeOut ease-in-out .3s;
+  animation-fill-mode: forwards;
+
+  @media (--only-bigger-screen) {
+    display: none;
+  }
+}
+
+@keyframes hamburgerFadeIn {
+
+  from { right: -100vw; }
+
+  to { right: 0; }
+}
+
+@keyframes hamburgerFadeOut {
+
+  from { right: 0; }
+
+  to { right: -100; }
+}
+
+.menu__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 20rem;
+  margin-top: 4rem;
+
+  @media (--only-bigger-screen) {
+    flex-direction: unset;
+    height: unset;
+    margin-top: unset;
+    margin-right: 2rem;
+    justify-content: unset;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu__link {
+  font-size: 3rem;
+  font-family: var(--avenirBlack);
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: bold;
+  padding-bottom: .4rem;
+
+  @media (--only-bigger-screen) {
+    border-bottom: .2rem solid var(--primary);
+    margin-left: 2rem;
+    margin-right: 0;
+    font-size: 1.3rem;
+    color: var(--fontColor);
+  }
+}
+
+.menu__link:hover {
+  border-bottom: .2rem solid var(--fontColor);
+  transition: .3s;
+}
+
+.hamburger__menu {
+  @media (--only-bigger-screen) {
+    display: none;
+  }
+}
+
+.hamburger__menu--item {
+  width: 2.4rem;
+
+  @media (--only-bigger-screen) {
+    display: none;
+  }
+}
