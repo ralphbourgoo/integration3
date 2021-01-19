@@ -1,0 +1,42 @@
+.order__form {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__sub {
+  font-family: var(--montserratBlack);
+  font-size: var(--sizeThird);
+  color: var(--secondary);
+  margin-top: 1rem;
+  margin-bottom: 1.6rem;
+}
+
+.gegevens {
+  margin: 2rem auto;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  font-family: var(--montserratBlack);
+  font-size: var(--fontExtra);
+  font-weight: bold;
+}
+
+.top__label {
+  margin-top: 1.6rem;
+}
+
+.form-input {
+  margin: .7rem 0;
+  padding: 1rem;
+  border: .2rem solid var(--secondary);
+  border-radius: .7rem;
+}
+
+.error {
+  margin: .9rem 0;
+}
