@@ -13,11 +13,11 @@
 }
 
 .logo {
-  width: 12rem;
+  width: 4rem;
 }
 
 .firstmenu__item {
-  margin-top: 12rem;
+  margin-top: 2rem;
 
   @media (--only-bigger-screen) {
     margin-top: unset;
@@ -37,7 +37,7 @@
   z-index: 99;
   right: -100vw;
   top: 0;
-  background-color: var(--fontColor);
+  background-color: var(--secondary);
   width: 100vw;
   height: 100vh;
 
@@ -56,7 +56,8 @@
   position: absolute;
   top: 0;
   right: 0;
-  padding: 2rem;
+  padding: 3rem;
+  padding-top: 4.2rem;
   cursor: pointer;
   width: 2rem;
 
@@ -117,8 +118,8 @@
 }
 
 .menu__link {
-  font-size: 3rem;
-  font-family: var(--avenirBlack);
+  font-size: 2rem;
+  font-family: var(--montserratBlack);
   text-decoration: none;
   color: var(--primary);
   font-weight: bold;

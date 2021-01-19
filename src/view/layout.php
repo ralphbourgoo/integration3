@@ -15,17 +15,17 @@
   <header class="header">
   <h1 class="hidden">Maker Faire Ghent 2021</h1>
     <div class="menu">
-      <a href="?page=index"><img class="logo" src="assets/img/logo.svg" alt="logo"></a>
+      <a href="?page=index"><img class="logo" src="assets/img/logo/logo.svg" alt="logo"></a>
       <nav class="navigation">
-        <img class="navigation__cross" src="assets/img/cross.svg" alt="cross">
+        <img class="navigation__cross" src="assets/img/logo/cross.svg" alt="cross">
         <ul class="menu__items">
           <li class="menu__item firstmenu__item"><a class="menu__link" href="index.php">home</a></li>
-          <li class="menu__item"><a class="menu__link" href="index.php?page=about">winkel</a></li>
-          <li class="menu__item"><a class="menu__link" href="index.php?page=skills">tutorial</a></li>
-          <li class="menu__item"><a class="menu__link" href="index.php?page=work">work</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.php?page=winkel">winkel</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.php?page=tutorial">tutorial</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.php?page=winkelwagen"><img src="assets/img/logo/basket.svg" alt="">()</a></li>
         </ul>
       </nav>
-      <a class="hamburger__menu" href=""><img class="hamburger__menu--item" src="assets/img/hamburger.svg" alt="menu"></a>
+      <a class="hamburger__menu" href=""><img class="hamburger__menu--item" src="assets/img/logo/hamburger.svg" alt="menu"></a>
     </div>
   </header>
   <?php };?>

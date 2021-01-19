@@ -1,5 +1,5 @@
 <main>
-  <h1>Homepage</h1>
+  <h1 class="hidden">Homepage</h1>
   <section>
     <h2>De Luchtballon</h2>
     <p>Makers Faire Ghent 2021</p>
