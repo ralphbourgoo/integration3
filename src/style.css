@@ -4,6 +4,7 @@
 @import './css/components/navigation.css';
 @import './css/components/winkel.css';
 @import './css/components/footer.css';
+@import './css/components/winkelwagen.css';
 
 body {
   background-color: var(--primary);

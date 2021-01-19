@@ -1,5 +1,5 @@
 <main>
-  <h1>Winkelwagen</h1>
+  <h1 class="title">Winkelwagen</h1>
   <div class="chart__wrapper">
     <p>product</p>
     <div class="chart__wrapper--end">
@@ -7,21 +7,21 @@
       <p class="chart__price">prijs</p>
     </div>
   </div>
-  <section>
+  <section class="chart__wrapper--product">
     <h2 class="hidden">product</h2>
     <form action="index.php?page=shoppingcart" method="post">
       <div class="chart">
         <div class="chart__product">
-          <img src="" alt="cart img" width="100" height="100">
+          <img src="assets/img/balloons/beginner_balloons.svg" alt="cart img" width="60" height="60">
           <div class="chart__info">
-            <p class="chart__tekst">Titel Product</p>
-            <p class="chart__versie">Versie Product</p>
+            <p class="chart__tekst">De Luchtballon</p>
+            <p class="chart__versie">Beginner</p>
             <div class="handle__buttons">
               <button type="submit" class="chart__remove" name="remove" value="">
-                <img class="updel trash" src="assets/trash.svg" alt="trash icon" >
+                <img class="updel trash" src="assets/img/logo/trash.svg" alt="trash icon" >
               </button>
               <p><button class="update" type="submit" id="update-cart" class="btn" name="action" value="update">
-                <img class="updel" src="assets/update.svg" alt="update icon" >
+                <img class="updel" src="assets/img/logo/update.svg" alt="update icon" >
               </button></p>
             </div>
           </div>
@@ -57,8 +57,8 @@
     <p class="subtotal__text">Totaal</p>
     <p class="chart__prijs"></p>
   </section>
-  <div class="chart__buttons">
-      <a class="chart__button--reverse" href="?page=shop">verder winkelen</a>
-      <a class="chart__button" href="?page=form">bestellen</a>
+  <div class="button_wrapper">
+      <a class="button__inverse" href="?page=shop">verder winkelen</a>
+      <a class="button" href="?page=formulier">bestellen</a>
   </div>
 </main>

@@ -1,0 +1,124 @@
+.chart__wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: .3rem solid var(--secondary);
+  padding-bottom: 2rem;
+  margin: 3rem .5rem;
+  font-size: var(--fontSmall);
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: var(--montserratBlack);
+}
+
+.chart__wrapper--end {
+  display: flex;
+}
+
+.chart__price {
+  margin-left: 2rem;
+}
+
+.chart__product {
+  display: flex;
+  margin: 0 .5rem;
+}
+
+.chart__info {
+  margin-left: 1rem;
+}
+
+.chart__tekst {
+  font-family: var(--montserratBlack);
+  font-size: var(--fontSmall);
+  color: var(--secondary);
+  line-height: 1.5;
+}
+
+.chart__versie {
+  font-family: var(--avenirLight);
+  font-size: var(--fontExtraSmall);
+  color: black;
+  line-height: 1.5;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart__content {
+  display: flex;
+}
+
+.hoeveel {
+  padding: .5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.chart__prijs {
+  font-family: var(--montserratBlack);
+  font-size: var(--fontSmall);
+  color: var(--secondary);
+  line-height: 1.5;
+  margin-left: 2rem;
+}
+
+.chart__wrapper--product {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: .3rem solid var(--secondary);
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem .5rem;
+}
+
+.updel {
+  width: 2rem;
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.updel:hover {
+  transform: scale(1.2);
+}
+
+.trash {
+  width: 1.5rem;
+}
+
+.chart__remove {
+  border: none;
+  background: none;
+}
+
+.update {
+  border: none;
+  background: none;
+}
+
+.handle__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.korting__button {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-family: var(--montserratBlack);
+  font-size: var(--fontExtraSmall);
+  background-color: var(--third);
+  margin-left: 1rem;
+  font-weight: var(--fontWeightBold);
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  border: .2rem solid var(--titleColor);
+}
