@@ -1,0 +1,26 @@
+.footer {
+  background-color: var(--secondary);
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__item {
+  margin-bottom: 1rem;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  font-family: var(--montserratBlack);
+  font-size: 1.6rem;
+}
+
+.white {
+  color: white;
+  margin: 1rem 0;
+}

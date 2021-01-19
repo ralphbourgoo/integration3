@@ -1,6 +1,9 @@
 <main>
   <h1 class="hidden">Homepage</h1>
   <section class="header_wrapper">
+    <div>
+      <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  style="width: 80vw;"  loop  autoplay></lottie-player>
+    </div>
     <h2 class="title">De Luchtballon</h2>
     <p class="red">Makers Faire Ghent 2021</p>
     <p class="text">Ga aan de slag met verschillende tutorials en bouw de gekste dingen. Het thema dit trimester zijn voertuigen die kunnen vliegen. Ga van start en bouw samen met ons een luchtballon !</p>
@@ -17,11 +20,11 @@
     </div>
     <div>
       <div>
-        <a href=""><img src="" alt=""></a>
+        <a href=""></a>
         <p class="label">De Luchtballon: Beginner</p>
       </div>
       <div>
-        <a href=""><img src="" alt=""></a>
+        <a href=""><lottie-player src="https://assets4.lottiefiles.com/packages/lf20_rhd1jxjt.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover loop  autoplay></lottie-player></a>
         <p class="label">De Luchtballon: Expert</p>
       </div>
     </div>

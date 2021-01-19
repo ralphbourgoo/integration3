@@ -30,8 +30,19 @@
   </header>
   <?php };?>
 <?php echo $content; ?>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <?php echo $js; ?>
   <footer class="footer">
+    <ul class="footer__items">
+      <li class="footer__item"><a class="footer__link" href="?page=index">Home</a></li>
+      <li class="footer__item"><a class="footer__link" href="https://www.humo.be/actua">Winkel</a></li>
+      <li class="footer__item"><a class="footer__link" href="?page=longread">Tutorial</a></li>
+      <li class="footer__item"><a class="footer__link" href="?page=shop">()</a></li>
+    </ul>
+    <div>
+      <p class="text white">© MAKERS FAIRE GHENT</p>
+      <a href="" class="text white">website by Ralph Bourgoo</a>
+    </div>
   </footer>
 </body>
 </html>

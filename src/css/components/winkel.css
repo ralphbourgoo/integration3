@@ -1,0 +1,40 @@
+.winkel_text {
+  margin-top: 2rem;
+}
+
+.winkel_tekst {
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-family: var(--montserratBlack);
+  color: var(--secondary);
+  font-size: var(--sizeSub);
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.button__grey {
+  background-color: var(--primary);
+  font-family: var(--avenirBlack);
+  color: #c2c2c2;
+  border: .2rem solid #c2c2c2;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  border-radius: .7rem;
+}
+
+.product_wrapper {
+  margin: 4rem 0;
+}
+
+.lottie_balloons {
+  display: block;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.winkel_sub {
+  text-align: unset;
+}
