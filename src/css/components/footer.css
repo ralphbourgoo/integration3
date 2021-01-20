@@ -2,15 +2,29 @@
   background-color: var(--secondary);
   margin-top: 4rem;
   padding: 2rem;
+
+  @media (--only-medium-screen) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .footer__items {
   display: flex;
   flex-direction: column;
+
+  @media (--only-medium-screen) {
+    flex-direction: row;
+  }
 }
 
 .footer__item {
   margin-bottom: 1rem;
+
+  @media (--only-medium-screen) {
+    margin-left: 1rem;
+  }
 }
 
 .footer__link {
@@ -23,4 +37,10 @@
 .white {
   color: white;
   margin: 1rem 0;
+}
+
+.footer_text {
+  font-family: var(--avenirLight);
+  font-size: var(--sizeText);
+  line-height: 1.8rem;
 }

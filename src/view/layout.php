@@ -40,8 +40,8 @@
       <li class="footer__item"><a class="footer__link" href="?page=shop">()</a></li>
     </ul>
     <div>
-      <p class="text white">© MAKERS FAIRE GHENT</p>
-      <a href="" class="text white">website by Ralph Bourgoo</a>
+      <p class="footer_text white">© MAKERS FAIRE GHENT</p>
+      <a href="" class="footer_text white">website by Ralph Bourgoo</a>
     </div>
   </footer>
 </body>
