@@ -41,7 +41,7 @@
     </ul>
     <div>
       <p class="footer_text white">© MAKERS FAIRE GHENT</p>
-      <a href="" class="footer_text white">website by Ralph Bourgoo</a>
+      <a href="https://ralphbourgoo.be/" class="footer_text white">website by Ralph Bourgoo</a>
     </div>
   </footer>
 </body>

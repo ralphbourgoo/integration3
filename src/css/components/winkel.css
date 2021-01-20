@@ -1,9 +1,30 @@
 .winkel_text {
   margin-top: 2rem;
+
+  @media (--only-medium-screen) {
+    width: 90vw;
+  }
+}
+
+.winkel__title {
+  width: 90vw;
 }
 
 .winkel_tekst {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  width: unset;
+}
+
+.winkel_wrap {
+  margin-left: 2rem;
+
+  @media (--only-medium-screen) {
+    width: 50vw;
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
 }
 
 .price {
@@ -12,6 +33,10 @@
   font-size: var(--sizeSub);
   width: 90vw;
   margin: 0 auto;
+
+  @media (--only-medium-screen) {
+    width: unset;
+  }
 }
 
 .button__grey {
@@ -26,15 +51,30 @@
 }
 
 .product_wrapper {
-  margin: 4rem 0;
+  margin: 4rem auto;
+  width: 90vw;
+  max-width: 90rem;
+
+  @media (--only-medium-screen) {
+    display: flex;
+  }
 }
 
 .lottie_balloons {
   display: block;
   margin: 0 auto;
-  width: 80vw;
+
+  @media (--only-medium-screen) {
+    width: 40vw;
+    margin: unset;
+  }
+
+  @media (--only-extrabigger-screen) {
+    width: 30vw;
+  }
 }
 
 .winkel_sub {
   text-align: unset;
+  width: unset;
 }
