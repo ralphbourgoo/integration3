@@ -1,0 +1,120 @@
+.tutorial__title {
+  font-family: var(--montserratBlack);
+  color: var(--secondary);
+  font-size: var(--sizeSub);
+  line-height: 2.6rem;
+  margin: 1rem;
+}
+
+.tutorial_sub {
+  font-family: var(--montserratBlack);
+  color: var(--third);
+  font-size: var(--sizeText);
+  margin: 1rem;
+}
+
+.tutorial__text {
+  font-family: var(--avenirLight);
+  color: var(--fontColor);
+  font-size: var(--sizeText);
+  line-height: 1.8rem;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tools__title {
+  font-family: var(--montserratBlack);
+  color: var(--secondary);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.tools_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.tools_wrap {
+  display: flex;
+  justify-content: center;
+
+  @media (--only-medium-screen) {
+    justify-content: unset;
+  }
+}
+
+.lottie_tutorial {
+  width: 16rem;
+  margin: 0 auto;
+
+  @media (--only-bigger-screen) {
+    width: 20rem;
+  }
+
+  @media (--only-extrabigger-screen) {
+    width: 27rem;
+  }
+}
+
+.steps_img {
+  display: block;
+  width: 20rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.hold_button {
+  background-color: var(--third);
+  font-family: var(--avenirBlack);
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  border-radius: .7rem;
+  border: .2rem solid var(--third);
+}
+
+.tutorial_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media (--only-medium-screen) {
+    flex-direction: unset;
+  }
+}
+
+.tutorial_info {
+margin-left: 2rem;
+
+  @media (--only-medium-screen) {
+    width: 50vw;
+  }
+}
+
+.horizontalscroll {
+  @media (--only-medium-screen) {
+    width: 100vh;
+    height: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform-origin: right top;
+    transform: rotate(-90deg) translate3d(0,-100vh,0);
+  }
+}
+
+.stap {
+  @media (--only-medium-screen) {
+    transform-origin: left top;
+    width: 100rem;
+    margin-left: 10rem;
+    margin-bottom: 50rem;
+    transform: rotate(90deg) translate3d(0,calc(-100vh + 60px),0);
+  }
+}

@@ -6,6 +6,7 @@
 @import './css/components/footer.css';
 @import './css/components/winkelwagen.css';
 @import './css/components/formulier.css';
+@import './css/components/tutorial.css';
 
 body {
   background-color: var(--primary);

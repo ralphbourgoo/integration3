@@ -19,10 +19,10 @@
         ?>
       <div class="chart">
         <div class="chart__product">
-          <img src="assets/img/balloons/beginner_balloons.svg" alt="cart img" width="60" height="60">
+          <img src="<?php echo $item['product']['cart_img'];?>" alt="cart img" width="60" height="60">
           <div class="chart__info">
             <p class="chart__tekst"><?php echo $item['product']['titel'];?></p>
-            <p class="chart__versie">Beginner</p>
+            <p class="chart__versie"><?php echo $item['product']['versie'];?></p>
             <div class="handle__buttons">
               <button type="submit" class="chart__remove" name="remove" value="<?php echo $item['product']['id'];?>">
                 <img class="updel trash" src="assets/img/logo/trash.svg" alt="trash icon" >
