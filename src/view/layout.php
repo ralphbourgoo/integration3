@@ -35,9 +35,9 @@
   <footer class="footer">
     <ul class="footer__items">
       <li class="footer__item"><a class="footer__link" href="?page=index">Home</a></li>
-      <li class="footer__item"><a class="footer__link" href="https://www.humo.be/actua">Winkel</a></li>
-      <li class="footer__item"><a class="footer__link" href="?page=longread">Tutorial</a></li>
-      <li class="footer__item"><a class="footer__link" href="?page=shop">()</a></li>
+      <li class="footer__item"><a class="footer__link" href="index.php?page=winkel">Winkel</a></li>
+      <li class="footer__item"><a class="footer__link" href="index.php?page=tutorial">Tutorial</a></li>
+      <li class="footer__item"><a class="footer__link" href="index.php?page=winkelwagen">Winkelwagen ()</a></li>
     </ul>
     <div>
       <p class="footer_text white">© MAKERS FAIRE GHENT</p>

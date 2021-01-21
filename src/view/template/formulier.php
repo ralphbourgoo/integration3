@@ -1,5 +1,5 @@
 <main>
-  <h1 class="title">Bestelformulier</h1>
+  <h1 class="title winkel__title">Bestelformulier</h1>
   <form action="index.php?page=formulier" method="post" class="order__form">
     <input type="hidden" name="action" value="insertOrder">
       <p class="form__sub">Persoonlijke Gegevens</p>

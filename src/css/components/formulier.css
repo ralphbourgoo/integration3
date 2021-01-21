@@ -3,6 +3,11 @@
   margin: 1rem;
   display: flex;
   flex-direction: column;
+  max-width: 45rem;
+
+  @media (--only-medium-screen) {
+    margin: 1rem auto;
+  }
 }
 
 .form__sub {

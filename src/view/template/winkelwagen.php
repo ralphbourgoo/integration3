@@ -1,5 +1,5 @@
 <main>
-  <h1 class="title">Winkelwagen</h1>
+  <h1 class="title  winkel__title">Winkelwagen</h1>
   <div class="chart__wrapper">
     <p>product</p>
     <div class="chart__wrapper--end">

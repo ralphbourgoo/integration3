@@ -53,7 +53,6 @@
 .product_wrapper {
   margin: 4rem auto;
   width: 90vw;
-  max-width: 90rem;
 
   @media (--only-medium-screen) {
     display: flex;

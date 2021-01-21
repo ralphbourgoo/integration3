@@ -130,12 +130,12 @@
     margin-left: 2rem;
     margin-right: 0;
     font-size: 1.3rem;
-    color: var(--fontColor);
+    color: var(--secondary);
   }
 }
 
 .menu__link:hover {
-  border-bottom: .2rem solid var(--fontColor);
+  color: var(--third);
   transition: .3s;
 }
 

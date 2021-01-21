@@ -1,20 +1,24 @@
 <?php
 
 require_once __DIR__ . '/Controller.php';
+require_once __DIR__ . '/../dao/WinkelDAO.php';
 
 class TemplateController extends Controller {
 
-  // private $projectDAO;
+  private $winkelDAO;
 
-  // function __construct() {
-  //   $this->projectDAO = new ProjectDAO();
-  // }
+  function __construct() {
+    $this->winkelDAO = new WinkelDAO();
+  }
 
   public function index() {
     $this->set('title', 'Home');
   }
 
   public function winkel() {
+    $products = $this->winkelDAO->selectAllProducts();
+
+    $this->set('products', $products);
     $this->set('title', 'Winkel');
   }
 
