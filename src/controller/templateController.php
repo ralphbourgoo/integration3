@@ -22,9 +22,9 @@ class TemplateController extends Controller {
     $this->set('title', 'Winkel');
   }
 
-  public function winkelwagen() {
-    $this->set('title', 'Winkelwagen');
-  }
+  // public function winkelwagen() {
+  //   $this->set('title', 'Winkelwagen');
+  // }
 
   public function formulier() {
     $this->set('title', 'Formulier');

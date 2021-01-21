@@ -10,14 +10,21 @@
   <section class="chart__wrapper--product">
     <h2 class="hidden">product</h2>
     <form action="index.php?page=shoppingcart" method="post">
+      <?php
+          $total = 0;
+          $itemTotal = 0;
+          foreach($_SESSION['cart'] as $item) {
+            $itemTotal = $item['product']['price'] * $item['quantity'];
+            $total += $itemTotal;
+        ?>
       <div class="chart">
         <div class="chart__product">
           <img src="assets/img/balloons/beginner_balloons.svg" alt="cart img" width="60" height="60">
           <div class="chart__info">
-            <p class="chart__tekst">De Luchtballon</p>
+            <p class="chart__tekst"><?php echo $item['product']['titel'];?></p>
             <p class="chart__versie">Beginner</p>
             <div class="handle__buttons">
-              <button type="submit" class="chart__remove" name="remove" value="">
+              <button type="submit" class="chart__remove" name="remove" value="<?php echo $item['product']['id'];?>">
                 <img class="updel trash" src="assets/img/logo/trash.svg" alt="trash icon" >
               </button>
               <p><button class="update" type="submit" id="update-cart" class="btn" name="action" value="update">
@@ -27,17 +34,20 @@
           </div>
         </div>
         <div class="chart__content">
-          <input class="hoeveel" type="text" name="quantity[]" value="" class="replace"/></input>
-          <p class="chart__prijs">4 EUR</p>
+          <input class="hoeveel" type="text" name="quantity[<?php echo $item['product']['id'];?>]" value="<?php echo $item['quantity'];?>" class="replace"/></input>
+          <p class="chart__prijs"><?php echo $item['product']['price'];?> EUR</p>
         </div>
       </div>
     </form>
+    <?php
+            }
+        ?>
   </section>
   <section>
     <h2 class="hidden">Berekening</h2>
     <div class="subtotal">
       <p class="subtotal__text">subtotaal</p>
-      <p class="chart__prijs">4 EUR</p>
+      <p class="chart__prijs"><?php echo money_format("%i", $total);?></p>
     </div>
     <div class="subtotal">
       <p class="subtotal__text">verzending</p>
@@ -45,6 +55,15 @@
     </div>
     <div class="subtotal">
       <form class="discount" method="get" action="index.php">
+        <?php $korting= 0;
+        if(!empty($_GET['action'])) {
+            if($_GET['action'] == 'korting') {
+              if($_GET['code'] == 'DEVINE'){
+              $korting = 10;
+              }
+            }
+          }
+        ?>
         <input type="hidden" name="page" value="shoppingcart"/>
         <input type="hidden" name="action" value="korting" />
         <input type="text" class="korting_input" placeholder="Vul korting in" name="code">
@@ -55,7 +74,7 @@
   <section class="subtotal">
     <h2 class="hidden">totaal</h2>
     <p class="subtotal__text">Totaal</p>
-    <p class="chart__prijs"></p>
+    <p class="chart__prijs"><?php echo money_format("%i", $total-$korting);?></p>
   </section>
   <div class="button_wrapper">
       <a class="button__inverse" href="?page=shop">verder winkelen</a>

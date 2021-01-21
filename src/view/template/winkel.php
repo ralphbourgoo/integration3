@@ -14,8 +14,11 @@
       <p class="text winkel_tekst"><?php echo $product['extra'];?></p>
       <p class="price">€ <?php echo $product['price'];?></p>
       <div class="button_wrapper nocenter">
-        <a class="button__inverse" href="">Start Tutorial</a>
-        <a class="button" href="">In Winkelwagen</a>
+        <a class="button__inverse" href="index.php?page=tutorial">Start Tutorial</a>
+        <form method="post" action="index.php?page=winkelwagen">
+          <input type="hidden" name="id" value="<?php echo $product['id'];?>" />
+          <button class="button" type="submit" name="action" value="add">In Winkelwagen</button>
+        </form>
       </div>
     </div>
   </section>
