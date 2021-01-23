@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48" type="image/x-icon" href="assets/img/favicon.svg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.svg">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.svg">
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48" type="image/x-icon" href="assets/img/checklist/robot.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/checklist/robot.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/checklist/robot.svg">
   <title><?php echo $title ?></title>
   <?php echo $css;?>
 </head>

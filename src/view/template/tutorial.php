@@ -7,6 +7,7 @@
     <h1 class="hidden">Stap 1</h1>
     <div class="tutorial_wrapper">
       <div>
+        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
         <h2 class="hidden">Animation</h2>
         <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
         <button class="hold_button">Hold to fill balloon</button>
@@ -37,7 +38,7 @@
     <h1 class="hidden">Stap 2</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href="">I</a>
+        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
         <h2 class="hidden">Animation</h2>
         <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
         <button class="hold_button">Hold to fill balloon</button>
@@ -62,7 +63,7 @@
     <h1 class="hidden">Stap 3</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href="">I</a>
+        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
         <h2 class="hidden">Animation</h2>
         <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
         <button class="hold_button">Hold to fill balloon</button>
@@ -93,7 +94,7 @@
     <h1 class="hidden">Stap 4</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href="">I</a>
+        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
         <h2 class="hidden">Animation</h2>
         <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
         <button class="hold_button">Hold to fill balloon</button>
@@ -111,7 +112,7 @@
     <h1 class="hidden">Stap 5</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href="">I</a>
+        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
         <h2 class="hidden">Animation</h2>
         <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
         <button class="hold_button">Hold to fill balloon</button>

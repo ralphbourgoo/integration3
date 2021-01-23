@@ -9,7 +9,7 @@
   </div>
   <section class="chart__wrapper--product">
     <h2 class="hidden">product</h2>
-    <form action="index.php?page=shoppingcart" method="post">
+    <form action="index.php?page=winkelwagen" method="post">
       <?php
           $total = 0;
           $itemTotal = 0;
@@ -27,9 +27,9 @@
               <button type="submit" class="chart__remove" name="remove" value="<?php echo $item['product']['id'];?>">
                 <img class="updel trash" src="assets/img/logo/trash.svg" alt="trash icon" >
               </button>
-              <p><button class="update" type="submit" id="update-cart" class="btn" name="action" value="update">
+              <button class="update" type="submit" id="update-cart" class="btn" name="action" value="update">
                 <img class="updel" src="assets/img/logo/update.svg" alt="update icon" >
-              </button></p>
+              </button>
             </div>
           </div>
         </div>

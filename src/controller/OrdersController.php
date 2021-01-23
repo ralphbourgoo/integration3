@@ -59,6 +59,7 @@ class OrdersController extends Controller {
   }
 
   private function _handleRemove() {
+    // var_dump($_POST);
     if (isset($_SESSION['cart'][$_POST['remove']])) {
       unset($_SESSION['cart'][$_POST['remove']]);
     }

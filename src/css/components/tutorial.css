@@ -91,30 +91,13 @@
 }
 
 .tutorial_info {
-margin-left: 2rem;
+  margin-left: 2rem;
 
   @media (--only-medium-screen) {
     width: 50vw;
   }
 }
 
-.horizontalscroll {
-  @media (--only-medium-screen) {
-    width: 100vh;
-    height: 100vw;
-    overflow-y: auto;
-    overflow-x: hidden;
-    transform-origin: right top;
-    transform: rotate(-90deg) translate3d(0,-100vh,0);
-  }
-}
-
 .stap {
-  @media (--only-medium-screen) {
-    transform-origin: left top;
-    width: 100rem;
-    margin-left: 10rem;
-    margin-bottom: 50rem;
-    transform: rotate(90deg) translate3d(0,calc(-100vh + 60px),0);
-  }
+  margin-bottom: 10rem;
 }

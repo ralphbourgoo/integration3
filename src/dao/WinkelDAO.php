@@ -19,4 +19,11 @@ class WinkelDAO extends DAO {
         return $stmt->fetch(PDO::FETCH_ASSOC);
   }
 
+  public function delete($id) {
+    $sql = "DELETE FROM `products` WHERE `id` = :id";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->bindValue(':id', $id);
+    return $stmt->execute();
+  }
+
 }
