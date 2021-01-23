@@ -22,6 +22,12 @@
   margin: 2rem auto;
 }
 
+.hoeveel {
+  padding: .7rem;
+  border: .2rem solid var(--secondary);
+  border-radius: .7rem;
+}
+
 .form__label {
   display: flex;
   flex-direction: column;

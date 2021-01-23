@@ -112,9 +112,17 @@
 
 .handle__buttons {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: 1rem 0;
+}
+
+.blue {
+  color: var(--third);
+}
+
+.subtotal__text {
+  font-family: var(--montserratBlack);
+  color: var(--third);
 }
 
 .korting__button {
@@ -129,4 +137,22 @@
   margin-bottom: 2rem;
   border-radius: 2rem;
   border: .2rem solid var(--titleColor);
+}
+
+.winkelwagen__title {
+  font-family: var(--montserratBlack);
+  color: var(--secondary);
+  font-size: var(--sizeSub);
+  line-height: 2.6rem;
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.winkew_buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 90vw;
+  margin: 2rem auto;
+  max-width: 60rem;
 }

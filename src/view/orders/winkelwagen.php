@@ -1,10 +1,10 @@
 <main>
-  <h1 class="title  winkel__title">Winkelwagen</h1>
+  <h1 class="winkelwagen__title">Winkelwagen</h1>
   <div class="chart__wrapper">
-    <p>product</p>
+    <p class="blue">product</p>
     <div class="chart__wrapper--end">
-      <p>aantal</p>
-      <p class="chart__price">prijs</p>
+      <p class="blue">aantal</p>
+      <p class="blue chart__price">prijs</p>
     </div>
   </div>
   <section class="chart__wrapper--product">
@@ -46,11 +46,11 @@
   <section>
     <h2 class="hidden">Berekening</h2>
     <div class="subtotal">
-      <p class="subtotal__text">subtotaal</p>
+      <p class="subtotal__text">Subtotaal</p>
       <p class="chart__prijs"><?php echo money_format("%i", $total);?></p>
     </div>
     <div class="subtotal">
-      <p class="subtotal__text">verzending</p>
+      <p class="subtotal__text">Verzending</p>
       <p class="chart__prijs">GRATIS</p>
     </div>
     <div class="subtotal">
@@ -64,9 +64,9 @@
             }
           }
         ?>
-        <input type="hidden" name="page" value="shoppingcart"/>
-        <input type="hidden" name="action" value="korting" />
-        <input type="text" class="korting_input" placeholder="Vul korting in" name="code">
+        <input type="hidden" name="page" value="shoppingcart" class="form-input"/>
+        <input type="hidden" name="action" value="korting" class="form-input"/>
+        <input type="text" placeholder="Vul korting in" name="code" class="form-input">
         <button type="submit" class="korting__button">voeg toe</button>
       </form>
     </div>
@@ -76,7 +76,7 @@
     <p class="subtotal__text">Totaal</p>
     <p class="chart__prijs"><?php echo money_format("%i", $total-$korting);?></p>
   </section>
-  <div class="button_wrapper">
+  <div class="winkew_buttons nocenter">
       <a class="button__inverse" href="?page=shop">verder winkelen</a>
       <a class="button" href="?page=formulier">bestellen</a>
   </div>
