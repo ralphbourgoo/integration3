@@ -78,9 +78,20 @@ html {
   }
 }
 
+.width {
+  width: 90vw;
+}
+
 .button_wrapper {
   margin: 3rem auto;
-  width: 90vw;
+
+  @media (--only-small-screen) {
+    width: unset;
+  }
+}
+
+.headerbutton_wrapper {
+  margin: 3rem auto;
 }
 
 .button {

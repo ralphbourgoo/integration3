@@ -2,23 +2,37 @@
   margin-top: 2rem;
 
   @media (--only-medium-screen) {
-    width: 90vw;
+    width: 80vw;
   }
 }
 
 .winkel__title {
   width: 90vw;
+
+  @media (--only-medium-screen) {
+    width: 80vw;
+  }
 }
 
 .winkel_tekst {
-  margin-bottom: 2rem;
+  margin: unset;
   width: unset;
+  max-width: 47rem;
+}
+
+.nowrap {
+  margin-left: unset;
+
+  @media (--only-small-screen) {
+    margin-left: 1rem;
+  }
 }
 
 .winkel_wrap {
   margin-left: 2rem;
 
   @media (--only-medium-screen) {
+    margin-left: 5rem;
     width: 50vw;
   }
 }
@@ -31,12 +45,8 @@
   font-family: var(--montserratBlack);
   color: var(--secondary);
   font-size: var(--sizeSub);
-  width: 90vw;
-  margin: 0 auto;
-
-  @media (--only-medium-screen) {
-    width: unset;
-  }
+  margin: 1 auto;
+  padding-top: 2rem;
 }
 
 .button__grey {
@@ -56,6 +66,8 @@
 
   @media (--only-medium-screen) {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -76,4 +88,15 @@
 .winkel_sub {
   text-align: unset;
   width: unset;
+}
+
+.button_winkel {
+  @media (--only-small-screen) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.add_form {
+  width: 10rem;
 }

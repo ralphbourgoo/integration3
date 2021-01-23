@@ -35,7 +35,8 @@
   --calRmargin: 0 7.48vw;
 }
 
-@custom-media --only-small-screen (width <= 375px);
+@custom-media --only-extrasmall-screen (width <= 375px);
+@custom-media --only-small-screen (width >= 475px);
 @custom-media --only-tablet-screen (width >= 670px);
 @custom-media --only-medium-screen (width >= 768px);
 @custom-media --only-bigger-screen (width >= 910px);
