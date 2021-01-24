@@ -111,3 +111,23 @@
 .stap {
   margin-bottom: 10rem;
 }
+
+.stappenplan-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__tutorial {
+  background-color: var(--third);
+  font-family: var(--avenirBlack);
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  width: 10rem;
+  text-decoration: none;
+  border-radius: .7rem;
+  border: .2rem solid var(--third);
+  cursor: pointer;
+}
