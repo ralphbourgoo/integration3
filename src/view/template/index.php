@@ -18,7 +18,7 @@
     <h2 class="subtitle">DIY Pakketten</h2>
     <p class="text text_homepaketten">Deze maand heb je de keuze om <span>2 verschillende luchtbalonnen</span> in elkaar te steken. Is het je eerste keer? Aarzel dan niet om het beginners pakket in elkaar te steken. Of ga je de uitdaging aan en ga je voor het gevorderde pakket? </p>
     <div class="button_wrapper">
-      <a href="" class="button">Bekijk Shop</a>
+      <a href="index.php?page=winkel" class="button">Bekijk Shop</a>
     </div>
     <div class="pakket_wrap">
       <div>
@@ -40,7 +40,7 @@
       <h2 class="subtitle nocenter">Makers Faire Ghent 2021</h2>
       <p class="text faire__text">Door COVID-19 is onze vorige editie helaas niet kunnen doorgaan. Maar treur niet creatieve vrienden, wij zorgen ervoor dat jullie creativiteit beloond wordt. Ga aan de slag met verschillende <span>tutorials</span> en bouw de gekste dingen. Het thema dit trimester zijn voertuigen die kunnen vliegen. Ga van start en bouw samen met ons een <span>luchtballon</span> !</p>
       <div class="button_wrapper nocenter">
-        <a class="button" href="">Website</a>
+        <a class="button" href="https://www.makerfairegent.be/">Website</a>
       </div>
     </div>
   </section>

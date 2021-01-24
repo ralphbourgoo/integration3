@@ -8,8 +8,8 @@
     <p class="text center">Bedankt voor je bestelling. Een <span>ordersbevestiging</span> is vertuurd naar jou e-mail.</p>
     <p class="text center">Verder winkelen?</p>
     <div class="button_wrapper">
-      <a class="button" href="">Verder winkelen</a>
-      <a class="button__inverse" href="">Terug naar home</a>
+      <a class="button" href="index.php?page=winkel">Verder winkelen</a>
+      <a class="button__inverse" href="?page=index">Terug naar home</a>
     </div>
   </section>
 </main>

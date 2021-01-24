@@ -1,11 +1,13 @@
 <main>
-  <h1>Start Page</h1>
-  <section>
-    <img src="" alt="">
-    <h2>De Luchtballon</h2>
-    <p>Altijd al je eigen luchtballon willen maken ? Ter voorbereiding van Makers Faire Ghent 2021 bieden we een gratis tutorial aan. Ga meteen van start en maak jou eigen luchtballon !</p>
+  <h1 class="hidden">Start Page</h1>
+  <section class="start_wrapper">
     <div>
-      <a href="">Start Tutorial</a>
+      <lottie-player class="lottie_header" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+    </div>
+    <h2 class="subtitle">De Luchtballon</h2>
+    <p class="text center">Altijd al je eigen luchtballon willen maken ? Ter voorbereiding van <span>Makers Faire Ghent 2021</span> bieden we een gratis tutorial aan. Ga meteen van start en maak jou eigen luchtballon !</p>
+    <div class="button_wrapper">
+      <a class="button" href="index.php?page=checklist">Start Tutorial</a>
     </div>
   </section>
 </main>
