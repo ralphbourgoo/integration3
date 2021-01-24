@@ -10,7 +10,7 @@
       <p class="text header_text">Ga aan de slag met verschillende tutorials en bouw de gekste dingen. Het thema dit trimester zijn voertuigen die kunnen vliegen. Ga van start en bouw samen met ons een luchtballon !</p>
       <div class="headerbutton_wrapper width nocenter">
         <a class="button__inverse" href="index.php?page=winkel">DIY pakketten</a>
-        <a class="button" href="index.php?page=tutorial">Start Tutorial</a>
+        <a class="button" href="index.php?page=startpage">Start Tutorial</a>
       </div>
     </div>
   </section>

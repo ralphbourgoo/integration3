@@ -1,5 +1,5 @@
 <main>
-  <h1 class="title winkel__title">Bestelformulier</h1>
+  <h1 class="title winkel__title max_w">Bestelformulier</h1>
   <form action="index.php?page=formulier" method="post" class="order__form">
     <input type="hidden" name="action_order" value="insertOrder">
     <input type="hidden" name="action" value="insertClient">
@@ -39,7 +39,7 @@
             <span class="error"><?php if(!empty($errors['land'])){echo $errors['land'];} ?></span>
             <input id="land" name="land" type="land" required placeholder="Land" class="form-input input" value="<?php if(!empty($_POST['land'])){ echo $_POST['land'];} ?>">
         </label>
-        <div class="button__wrapper">
+        <div class="button__wrapper button_winkel">
             <a class="button__inverse" href="?page=shop">verder winkelen</a>
             <div>
               <input type="submit" value="Bevestigen" class="button">

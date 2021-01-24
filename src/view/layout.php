@@ -21,7 +21,7 @@
         <ul class="menu__items">
           <li class="menu__item firstmenu__item"><a class="menu__link" href="index.php">home</a></li>
           <li class="menu__item"><a class="menu__link" href="index.php?page=winkel">winkel</a></li>
-          <li class="menu__item"><a class="menu__link" href="index.php?page=tutorial">tutorial</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.php?page=startpage">tutorial</a></li>
           <li class="menu__item"><a class="menu__link" href="index.php?page=winkelwagen"><img src="assets/img/logo/basket.svg" alt="">(<?php echo $numItems;?>)</a></li>
         </ul>
       </nav>
@@ -36,7 +36,7 @@
     <ul class="footer__items">
       <li class="footer__item"><a class="footer__link" href="?page=index">Home</a></li>
       <li class="footer__item"><a class="footer__link" href="index.php?page=winkel">Winkel</a></li>
-      <li class="footer__item"><a class="footer__link" href="index.php?page=tutorial">Tutorial</a></li>
+      <li class="footer__item"><a class="footer__link" href="index.php?page=startpage">Tutorial</a></li>
       <li class="footer__item"><a class="footer__link" href="index.php?page=winkelwagen">Winkelwagen (<?php echo $numItems;?>)</a></li>
     </ul>
     <div>
