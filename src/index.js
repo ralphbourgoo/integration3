@@ -4,3 +4,4 @@ import './js/lottie.js';
 import './js/holdbutton.js';
 import './js/validation.js';
 import './js/stappen.js';
+import './js/webfont.js';
