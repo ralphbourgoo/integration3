@@ -27,7 +27,7 @@ $routes = array(
     'action' => 'winkelwagen'
   ),
   'formulier' => array(
-    'controller' => 'template',
+    'controller' => 'Orders',
     'action' => 'formulier'
   ),
   'bevestiging' => array(

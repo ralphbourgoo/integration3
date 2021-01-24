@@ -2,13 +2,19 @@
 
 require_once __DIR__ . '/Controller.php';
 require_once __DIR__ . '/../dao/WinkelDAO.php';
+require_once __DIR__ . '/../dao/ClientDAO.php';
+require_once __DIR__ . '/../dao/OrderDAO.php';
 
 class OrdersController extends Controller {
 
   private $winkelDAO;
+  private $ClientDAO;
+  private $OrderDAO;
 
   function __construct() {
     $this->winkelDAO = new WinkelDAO();
+    $this->clientDAO = new ClientDAO();
+    $this->orderDAO = new OrderDAO();
   }
 
   public function winkelwagen() {
@@ -74,4 +80,52 @@ class OrdersController extends Controller {
     $this->_removeWhereQuantityIsZero();
   }
 
+  public function formulier() {
+    foreach($_SESSION['cart'] as $cart)
+
+    if(!empty($_POST['action_order'])){
+      if($_POST['action_order'] == 'insertOrder'){
+          $data = array(
+            'titel' => $cart['product']['titel'],
+            'versie' => $cart['product']['versie'],
+            'amount' => $cart['quantity'],
+          );
+        $insertedOrder = $this->orderDAO->insertOrder($data);
+      }
+    }
+
+    if(!empty($_POST['action'])){
+      if($_POST['action'] == 'insertClient'){
+        $data = array(
+          'voornaam' => $_POST['voornaam'],
+          'achternaam' => $_POST['achternaam'],
+          'email' => $_POST['email'],
+          'straat' => $_POST['straat'],
+          'huisnummer' => $_POST['huisnummer'],
+          'stad' => $_POST['stad'],
+          'postcode' => $_POST['postcode'],
+          'land' => $_POST['land'],
+        );
+        $insertedClient = $this->clientDAO->insertClient($data);
+        if(empty($insertedClient)){
+          $errors = $this->clientDAO->validate($data);
+          $this->set('errors',$errors);
+        }
+      }
+    }
+
+    if (!empty($_POST['action_unset'])) {
+      if ($_POST['action_unset'] == 'unset') {
+      $this->_handleUnset();
+      header('Location: index.php?page=bevestiging');
+      exit();
+    }
+    }
+
+    $this->set('title', 'Formulier');
+  }
+
+  private function _handleUnset() {
+    session_unset();
+  }
 }

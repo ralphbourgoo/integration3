@@ -26,9 +26,9 @@ class TemplateController extends Controller {
   //   $this->set('title', 'Winkelwagen');
   // }
 
-  public function formulier() {
-    $this->set('title', 'Formulier');
-  }
+  // public function formulier() {
+  //   $this->set('title', 'Formulier');
+  // }
 
   public function bevestiging() {
     $this->set('title', 'Bevestiging');
