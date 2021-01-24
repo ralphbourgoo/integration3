@@ -31,7 +31,7 @@ $routes = array(
     'action' => 'formulier'
   ),
   'bevestiging' => array(
-    'controller' => 'template',
+    'controller' => 'Orders',
     'action' => 'bevestiging'
   ),
   'checklist' => array(

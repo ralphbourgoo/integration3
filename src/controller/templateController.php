@@ -30,9 +30,9 @@ class TemplateController extends Controller {
   //   $this->set('title', 'Formulier');
   // }
 
-  public function bevestiging() {
-    $this->set('title', 'Bevestiging');
-  }
+  // public function bevestiging() {
+  //   $this->set('title', 'Bevestiging');
+  // }
 
   public function checklist() {
     $this->set('title', 'Checklist');

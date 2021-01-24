@@ -128,4 +128,8 @@ class OrdersController extends Controller {
   private function _handleUnset() {
     session_unset();
   }
+
+  public function bevestiging() {
+    $this->set('title', 'Bevestiging');
+  }
 }
