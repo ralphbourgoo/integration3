@@ -7,9 +7,9 @@
     <h1 class="hidden">Stap 1</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
+        <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
         <h2 class="hidden">Animation</h2>
-        <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <div id="lottie-stap1" class="lottie_tutorial"></div>
         <button class="hold_button">Hold to fill balloon</button>
       </div>
       <div class="tutorial_info">
@@ -20,11 +20,11 @@
           <p class="tutorial_sub">Alternative Tools :</p>
           <div class="tools_wrap">
             <div class="tools_wrapper">
-              <img src="assets/img/tools/trashbag.svg" alt="trashbag">
+              <img class="tools__img" src="assets/img/tools/trashbag.svg" alt="trashbag">
               <p class="tools__title">Stevige Vuilzak</p>
             </div>
             <div  class="tools_wrapper">
-              <img src="assets/img/tools/bikepump.svg" alt="trashbag">
+              <img class="tools__img" src="assets/img/tools/bikepump.svg" alt="trashbag">
               <p class="tools__title">Fietspomp</p>
             </div>
           </div>
@@ -38,9 +38,9 @@
     <h1 class="hidden">Stap 2</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
+        <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
         <h2 class="hidden">Animation</h2>
-        <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <div id="lottie-stap2" class="lottie_tutorial"></div>
         <button class="hold_button">Hold to fill balloon</button>
       </div>
       <div class="tutorial_info">
@@ -49,9 +49,11 @@
         <p class="tutorial__text">De plastieke buis moet aan de voet van de ballon vastgemaakt worden. Dit is een versteviging voor de ballon. Aan de buis hangen 4 lussen, waar je later de touwen aan kan vast klikken. </p>
         <div>
           <p class="tutorial_sub">Alternative Tools :</p>
-          <div class="tools_wrapper">
-            <img src="" alt="">
-            <p  class="tools__title">Hard Papier</p>
+          <div class="tools_wrap">
+            <div class="tools_wrapper">
+              <img class="tools__img" src="assets/img/tools/paper.svg" alt="papier">
+              <p  class="tools__title">Hard Papier</p>
+            </div>
           </div>
         </div>
       </div>
@@ -63,9 +65,9 @@
     <h1 class="hidden">Stap 3</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
+        <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
         <h2 class="hidden">Animation</h2>
-        <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <div id="lottie-stap3" class="lottie_tutorial"></div>
         <button class="hold_button">Hold to fill balloon</button>
       </div>
       <div class="tutorial_info">
@@ -76,11 +78,11 @@
           <p class="tutorial_sub">Alternative Tools :</p>
           <div class="tools_wrap">
             <div class="tools_wrapper">
-              <img src="" alt="">
+              <img class="tools__img" src="assets/img/tools/doos.svg" alt="doos">
               <p class="tools__title">Klein Doosje</p>
             </div>
             <div class="tools_wrapper">
-              <img src="" alt="">
+              <img class="tools__img" src="assets/img/tools/touw.svg" alt="touw">
               <p class="tools__title">Normaal Touw</p>
             </div>
           </div>
@@ -94,9 +96,9 @@
     <h1 class="hidden">Stap 4</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
+        <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
         <h2 class="hidden">Animation</h2>
-        <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <div id="lottie-stap4" class="lottie_tutorial"></div>
         <button class="hold_button">Hold to fill balloon</button>
       </div>
       <div class="tutorial_info">
@@ -114,7 +116,7 @@
       <div>
         <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
         <h2 class="hidden">Animation</h2>
-        <lottie-player class="lottie_tutorial" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <div id="lottie-stap5" class="lottie_tutorial"></div>
         <button class="hold_button">Hold to fill balloon</button>
       </div>
       <div class="tutorial_info">

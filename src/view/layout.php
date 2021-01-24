@@ -22,7 +22,7 @@
           <li class="menu__item firstmenu__item"><a class="menu__link" href="index.php">home</a></li>
           <li class="menu__item"><a class="menu__link" href="index.php?page=winkel">winkel</a></li>
           <li class="menu__item"><a class="menu__link" href="index.php?page=startpage">tutorial</a></li>
-          <li class="menu__item"><a class="menu__link" href="index.php?page=winkelwagen"><img src="assets/img/logo/basket.svg" alt="">(<?php echo $numItems;?>)</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.php?page=winkelwagen">winkelwagen (<?php echo $numItems;?>)</a></li>
         </ul>
       </nav>
       <a class="hamburger__menu" href=""><img class="hamburger__menu--item" src="assets/img/logo/hamburger.svg" alt="menu"></a>

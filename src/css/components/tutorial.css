@@ -20,6 +20,11 @@
   line-height: 1.8rem;
   margin-left: 1rem;
   margin-bottom: 3rem;
+  width: 80vw;
+
+  @media (--only-medium-screen) {
+    width: 50vw;
+  }
 }
 
 .tools__title {
@@ -38,11 +43,16 @@
   margin-right: 2rem;
 }
 
+.tools__img {
+  height: 4rem;
+  margin-top: 2rem;
+}
+
 .tools_wrap {
   display: flex;
   justify-content: center;
 
-  @media (--only-medium-screen) {
+  @media (--only-small-screen) {
     justify-content: unset;
   }
 }
