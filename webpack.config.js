@@ -1,3 +1,5 @@
+/* eslint-disable object-curly-spacing */
+/* eslint-disable babel/object-curly-spacing */
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const postcssPresetEnv = require('postcss-preset-env');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
@@ -7,31 +9,34 @@ module.exports = (env, { mode }) => {
   console.log(mode);
   return {
     output: {
-      filename: 'script.js'
+      filename: 'script.js',
+      publicPath: mode === 'production' ? '' : 'http://localhost:9000/'
     },
     devServer: {
       overlay: true,
       hot: true,
-      disableHostCheck: true,
-      port: 9000
+      port: 9000,
+      disableHostCheck: true
     },
     module: {
       rules: [
         {
-          test: /\.js$/,
-          exclude: /node_modules/,
+          test: /\.(jpe?g|png|svg|webp)$/,
           use: {
-            loader: 'babel-loader'
+            loader: 'file-loader',
+            options: {
+              name: 'assets/img/[name].[ext]',
+              esModule: false,
+            }
           }
         },
         {
-          test: /\.(jpe?g|png|svg|webp|woff2|woff)$/,
+          test: /\.(woff|woff2)$/,
           use: {
-            loader: 'url-loader',
+            loader: 'file-loader',
             options: {
-              limit: 1000,
-              context: './src',
-              name: '[path][name].[ext]'
+              name: 'assets/fonts/[name].[ext]',
+              esModule: false,
             }
           }
         },
@@ -47,15 +52,17 @@ module.exports = (env, { mode }) => {
               loader: 'postcss-loader',
               options: {
                 sourceMap: true,
-                plugins: [
-                  require('postcss-import'),
-                  postcssPresetEnv({ stage: 0 })
-                ]
+                postcssOptions: {
+                  plugins: [
+                    require('postcss-import'),
+                    postcssPresetEnv({ stage: 0 })
+                  ]
+                }
               }
             }
           ]
         }
-      ],
+      ]
     },
     plugins: [
       new MiniCssExtractPlugin({
@@ -63,6 +70,9 @@ module.exports = (env, { mode }) => {
       }),
       new OptimizeCSSAssetsPlugin(),
       new webpack.HotModuleReplacementPlugin()
-    ]
+    ],
+    externals: {
+      'lottie-web': 'lottie'
+    }
   };
 };
