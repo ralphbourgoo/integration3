@@ -1,59 +1,72 @@
 import lottie from 'lottie-web'
 
-let iconSkipForward = document.querySelector('.lottie_tutorial');
+let fillBalloon = document.querySelector('.stap1');
+let buttonBalloon = document.querySelector('.one');
+let buisBevestigen = document.querySelector('.stap2');
+let buttonBuis = document.querySelector('.two');
+let touwBevestigen = document.querySelector('.stap3');
+let buttonTouw = document.querySelector('.three');
+let ballonOpwarmen = document.querySelector('.stap4');
+let buttonOpwarmen = document.querySelector('.four');
+let ballonOpstijgen = document.querySelector('.stap5');
+let buttonOpstijgen = document.querySelector('.five');
 
-let animationSkipForward = lottie.loadAnimation({
-  container: iconSkipForward,
+let fillBalloonAnim = lottie.loadAnimation({
+  container: fillBalloon,
   renderer: 'svg',
   loop: false,
   autoplay: false,
   path: 'assets/lottie/stap1.json'
 });
 
-iconSkipForward.addEventListener('click', function() {
-  animationSkipForward.playSegments([0,180], true);
+buttonBalloon.addEventListener('click', function() {
+  fillBalloonAnim.playSegments([0,180], true);
 });
 
-const $lottieStap2 = document.getElementById('lottie-stap2');
-if ($lottieStap2) {
-  lottie.loadAnimation({
-    container: $lottieStap2, // the dom element that will contain the animation
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'assets/lottie/stap2.json' // the path to the animation json
-  });
-}
+let buisBevestigenAnim = lottie.loadAnimation({
+  container: buisBevestigen,
+  renderer: 'svg',
+  loop: false,
+  autoplay: false,
+  path: 'assets/lottie/stap2.json'
+});
 
-const $lottieStap3 = document.getElementById('lottie-stap3');
-if ($lottieStap3) {
-  lottie.loadAnimation({
-    container: $lottieStap3, // the dom element that will contain the animation
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'assets/lottie/stap3.json' // the path to the animation json
-  });
-}
+buttonBuis.addEventListener('click', function() {
+  buisBevestigenAnim.playSegments([0,130], true);
+});
 
-const $lottieStap4 = document.getElementById('lottie-stap4');
-if ($lottieStap4) {
-  lottie.loadAnimation({
-    container: $lottieStap4, // the dom element that will contain the animation
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'assets/lottie/stap4.json' // the path to the animation json
-  });
-}
+let touwBevestigenAnim = lottie.loadAnimation({
+  container: touwBevestigen,
+  renderer: 'svg',
+  loop: false,
+  autoplay: false,
+  path: 'assets/lottie/stap3.json'
+});
 
-const $lottieStap5 = document.getElementById('lottie-stap5');
-if ($lottieStap5) {
-  lottie.loadAnimation({
-    container: $lottieStap5, // the dom element that will contain the animation
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'assets/lottie/stap5.json' // the path to the animation json
-  });
-}
+buttonTouw.addEventListener('click', function() {
+  touwBevestigenAnim.playSegments([0,146], true);
+});
+
+let ballonOpwarmenAnim = lottie.loadAnimation({
+  container: ballonOpwarmen,
+  renderer: 'svg',
+  loop: false,
+  autoplay: false,
+  path: 'assets/lottie/stap4.json'
+});
+
+buttonOpwarmen.addEventListener('click', function() {
+  ballonOpwarmenAnim.playSegments([0,180], true);
+});
+
+let ballonOpstijgenAnim = lottie.loadAnimation({
+  container: ballonOpstijgen,
+  renderer: 'svg',
+  loop: false,
+  autoplay: false,
+  path: 'assets/lottie/stap5.json'
+});
+
+buttonOpstijgen.addEventListener('click', function() {
+  ballonOpstijgenAnim.playSegments([0,180], true);
+});

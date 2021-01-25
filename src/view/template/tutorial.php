@@ -11,8 +11,10 @@
           <span class="popuptext" id="myPopup">Hallo dit is een simpele Popup!</span>
         </div>
         <h2 class="hidden">Animation</h2>
-        <div id="lottie-stap1" class="lottie_tutorial"></div>
-        <button class="hold_button">Klik om de ballon te vullen</button>
+        <div class="lottie_wrap">
+          <div id="lottie-stap1" class="lottie_tutorial stap1"></div>
+          <button class="hold_button one">Klik om de ballon te vullen</button>
+        </div>
       </div>
       <div class="tutorial_info">
         <h2 class="tutorial__title">Gebruik de pomp en vul de ballon met lucht</h2>
@@ -42,8 +44,10 @@
       <div>
         <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
         <h2 class="hidden">Animation</h2>
-        <div id="lottie-stap2" class="lottie_tutorial"></div>
-        <button class="hold_button">Hold to fill balloon</button>
+        <div class="lottie_wrap">
+          <div id="lottie-stap2" class="lottie_tutorial stap2"></div>
+          <button class="hold_button two">Klik om buis te bevestigen</button>
+        </div>
       </div>
       <div class="tutorial_info">
         <h2 class="tutorial__title">Maak de buis vast aan de voet van de baloon.</h2>
@@ -69,8 +73,10 @@
       <div>
         <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
         <h2 class="hidden">Animation</h2>
-        <div id="lottie-stap3" class="lottie_tutorial"></div>
-        <button class="hold_button">Hold to fill balloon</button>
+        <div class="lottie_wrap">
+          <div id="lottie-stap3" class="lottie_tutorial stap3"></div>
+          <button class="hold_button three">Klik om touw vast te klikken</button>
+        </div>
       </div>
       <div class="tutorial_info">
         <h2 class="tutorial__title">Verbindt het touw met de buis en de mand.</h2>
@@ -100,8 +106,10 @@
       <div>
         <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
         <h2 class="hidden">Animation</h2>
-        <div id="lottie-stap4" class="lottie_tutorial"></div>
-        <button class="hold_button">Hold to fill balloon</button>
+        <div class="lottie_wrap">
+          <div id="lottie-stap4" class="lottie_tutorial stap4"></div>
+          <button class="hold_button four">Klik om ballon op te warmen</button>
+        </div>
       </div>
       <div class="tutorial_info">
         <h2 class="tutorial__title">Vul de ballon met warme lucht.</h2>
@@ -118,8 +126,10 @@
       <div>
         <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
         <h2 class="hidden">Animation</h2>
-        <div id="lottie-stap5" class="lottie_tutorial"></div>
-        <button class="hold_button">Hold to fill balloon</button>
+        <div class="lottie_wrap">
+          <div id="lottie-stap5" class="lottie_tutorial stap5"></div>
+          <button class="hold_button five">Klik om op te stijgen</button>
+        </div>
       </div>
       <div class="tutorial_info">
         <h2 class="tutorial__title">Klaar met alles? Opstijgen maar !</h2>

@@ -83,10 +83,30 @@
   color: white;
   padding: 1rem;
   margin-top: 2rem;
-  margin-left: 1rem;
   text-decoration: none;
   border-radius: .7rem;
   border: .2rem solid var(--third);
+  box-shadow: 0 8px var(--secondary);
+  cursor: pointer;
+  outline: none;
+}
+
+.hold_button:hover {
+  background-color: var(--third);
+}
+
+.hold_button:active {
+  background-color: var(--third);
+  box-shadow: 0 5px var(--secondary);
+  transform: translateY(4px);
+}
+
+.lottie_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .tutorial_wrapper {
@@ -130,6 +150,7 @@
   border-radius: .7rem;
   border: .2rem solid var(--third);
   cursor: pointer;
+  outline: none;
 }
 
 /* Popup container */
