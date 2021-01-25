@@ -27,7 +27,7 @@ function showTab(n) {
   if (n == (x.length - 1)) {
     document.getElementById('nextBtn').style.display = 'none';
   } else {
-    document.getElementById('nextBtn').innerHTML = 'Next >>';
+    document.getElementById('nextBtn').innerHTML = 'Next &#8811';
   }
 }
 

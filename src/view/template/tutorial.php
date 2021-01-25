@@ -169,7 +169,7 @@
   </div>
 
   <div class="stappenplan-buttons">
-    <button type="button" id="prevBtn" class="button__tutorial"><< Previous</button>
-    <button type="button" id="nextBtn" class="button__tutorial">Next >></button>
+    <button type="button" id="prevBtn" class="button__tutorial"> &#8810 Previous</button>
+    <button type="button" id="nextBtn" class="button__tutorial">Next -></button>
 </div>
 </main>
