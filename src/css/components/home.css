@@ -66,6 +66,51 @@ html {
   }
 }
 
+.header__title {
+  font-family: var(--montserratBlack);
+  color: var(--secondary);
+  font-size: 3rem;
+  line-height: 4rem;
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 40rem;
+
+  @media (--only-medium-screen) {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    margin: unset;
+  }
+
+  @media (--only-littlebigger-screen) {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin: unset;
+  }
+
+  @media (--only-extrabigger-screen) {
+    font-size: 5rem;
+    line-height: 6rem;
+    margin: unset;
+  }
+}
+
+.header__subtitle {
+  font-family: var(--montserratExtraBold);
+  color: var(--third);
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  padding-bottom: 2rem;
+  width: 90vw;
+
+  @media (--only-small-screen) {
+    font-size: 2rem;
+  }
+
+  @media (--only-medium-screen) {
+    width: unset;
+  }
+}
+
 .red {
   font-family: var(--montserratBold);
   color: var(--third);

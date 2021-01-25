@@ -5,10 +5,10 @@
       <lottie-player class="lottie_header" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
     </div>
     <div class="header_wrap">
-      <h2 class="title">De Luchtballon</h2>
-      <p class="red">Makers Faire Ghent 2021</p>
-      <p class="text header_text">Ga aan de slag met verschillende tutorials en bouw de gekste dingen. Het thema dit trimester zijn voertuigen die kunnen vliegen. Ga van start en bouw samen met ons een luchtballon !</p>
-      <div class="headerbutton_wrapper width nocenter">
+      <h2 class="header__title">Bouw je eigen luchtballon. </h2>
+      <p class="header__subtitle">Makers Faire Ghent 2021</p>
+      <!-- <p class="text header_text">Ga aan de slag met verschillende tutorials en bouw de gekste dingen. Het thema dit trimester zijn voertuigen die kunnen vliegen. Ga van start en bouw samen met ons een luchtballon !</p> -->
+      <div class="headerbutton_wrapper width nocenter margint">
         <a class="button__inverse" href="index.php?page=winkel">DIY pakketten</a>
         <a class="button" href="index.php?page=startpage">Start Tutorial</a>
       </div>
