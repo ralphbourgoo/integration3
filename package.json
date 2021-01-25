@@ -28,8 +28,7 @@
   "scripts": {
     "dev": "yarn mamp-dev && webpack-dev-server --mode development",
     "prod": "yarn clean && yarn copydist && webpack --mode production",
-    "copydist": "rsync -a --exclude=*.css --exclude=*.js ./src/ ./dist",
-    "copydist-new": "rsync -av --filter='merge filter.txt' ./src/ ./dist",
+    "copydist": "rsync -av --filter='merge filter.txt' ./src/ ./dist",
     "clean": "rm -rf ./dist",
     "mamp-dev": "./node_modules/.bin/mamp switch \"$(pwd)/src\"",
     "mamp-prod": "./node_modules/.bin/mamp switch \"$(pwd)/dist\"",
