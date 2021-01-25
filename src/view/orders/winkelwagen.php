@@ -47,34 +47,17 @@
     <h2 class="hidden">Berekening</h2>
     <div class="subtotal">
       <p class="subtotal__text">Subtotaal</p>
-      <p class="chart__prijs"><?php echo money_format("%i", $total);?></p>
+      <p class="chart__prijs">€ <?php echo $total;?></p>
     </div>
     <div class="subtotal">
       <p class="subtotal__text">Verzending</p>
       <p class="chart__prijs">GRATIS</p>
     </div>
-    <div class="subtotal">
-      <form class="discount" method="get" action="index.php">
-        <?php $korting= 0;
-        if(!empty($_GET['action'])) {
-            if($_GET['action'] == 'korting') {
-              if($_GET['code'] == 'DEVINE'){
-              $korting = 10;
-              }
-            }
-          }
-        ?>
-        <input type="hidden" name="page" value="shoppingcart" class="form-input"/>
-        <input type="hidden" name="action" value="korting" class="form-input"/>
-        <input type="text" placeholder="Vul korting in" name="code" class="form-input">
-        <button type="submit" class="korting__button">voeg toe</button>
-      </form>
-    </div>
   </section>
   <section class="subtotal">
     <h2 class="hidden">totaal</h2>
     <p class="subtotal__text">Totaal</p>
-    <p class="chart__prijs"><?php echo money_format("%i", $total-$korting);?></p>
+    <p class="chart__prijs">€ <?php echo $total?></p>
   </section>
   <div class="winkew_buttons nocenter">
       <a class="button__inverse" href="?page=shop">verder winkelen</a>

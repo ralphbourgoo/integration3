@@ -10,7 +10,7 @@
   <?php echo $css;?>
 </head>
 <body>
-  <?php if ($title === 'Home' || $title === 'Winkel' || $title === 'Winkelwagen' || $title === 'Formulier' || $title === 'Tutorial' || $title === 'Bevestiging' || $title === 'Contact') {
+  <?php if ($title === 'Home' || $title === 'Winkel' || $title === 'Winkelwagen' || $title === 'Formulier' || $title === 'Tutorial' || $title === 'Bevestiging' || $title === 'Contact' || $title === 'Start' || $title === 'Checklist') {
   ?>
   <header class="header">
   <h1 class="hidden">Maker Faire Ghent 2021</h1>

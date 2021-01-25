@@ -1,15 +1,18 @@
 import lottie from 'lottie-web'
 
-const $lottieStap1 = document.getElementById('lottie-stap1');
-if ($lottieStap1) {
-  lottie.loadAnimation({
-    container: $lottieStap1, // the dom element that will contain the animation
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'assets/lottie/stap1.json' // the path to the animation json
-  });
-}
+let iconSkipForward = document.querySelector('.lottie_tutorial');
+
+let animationSkipForward = lottie.loadAnimation({
+  container: iconSkipForward,
+  renderer: 'svg',
+  loop: false,
+  autoplay: false,
+  path: 'assets/lottie/stap1.json'
+});
+
+iconSkipForward.addEventListener('click', function() {
+  animationSkipForward.playSegments([0,180], true);
+});
 
 const $lottieStap2 = document.getElementById('lottie-stap2');
 if ($lottieStap2) {

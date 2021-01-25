@@ -20,6 +20,7 @@ class TemplateController extends Controller {
 
     $this->set('products', $products);
     $this->set('title', 'Winkel');
+    $this->set('showNav', true);
   }
 
   // public function winkelwagen() {
@@ -39,7 +40,7 @@ class TemplateController extends Controller {
   }
 
   public function startpage() {
-    $this->set('title', 'Startpage');
+    $this->set('title', 'Start');
   }
 
   public function tutorial() {

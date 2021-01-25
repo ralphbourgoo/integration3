@@ -7,10 +7,12 @@
     <h1 class="hidden">Stap 1</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
+        <div class="popup" onclick="myFunction()"><img src="assets/img/logo/info.svg" alt="info">
+          <span class="popuptext" id="myPopup">Hallo dit is een simpele Popup!</span>
+        </div>
         <h2 class="hidden">Animation</h2>
         <div id="lottie-stap1" class="lottie_tutorial"></div>
-        <button class="hold_button">Hold to fill balloon</button>
+        <button class="hold_button">Klik om de ballon te vullen</button>
       </div>
       <div class="tutorial_info">
         <h2 class="tutorial__title">Gebruik de pomp en vul de ballon met lucht</h2>
