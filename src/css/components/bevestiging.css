@@ -35,15 +35,15 @@
   grid-gap: 3rem;
   max-width: 40rem;
 
-  @media (--only-small-screen) {
+  @media (--only-medium-screen) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 3rem;
     max-width: 50rem;
     margin: 0 auto;
   }
 
-  @media (--only-medium-screen) {
+  @media (--only-littlebigger-screen) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 70rem;
@@ -51,7 +51,7 @@
     margin: 0 auto;
   }
 
-  @media (--only-littlebigger-screen) {
+  @media (--only-large-screen) {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     max-width: 80rem;
