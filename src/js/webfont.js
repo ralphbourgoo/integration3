@@ -1,4 +1,4 @@
-import WebFont from 'webfontloader'
+// import WebFont from 'webfontloader'
 
 WebFont.load({
  custom: {

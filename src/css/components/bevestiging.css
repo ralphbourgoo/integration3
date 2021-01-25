@@ -26,6 +26,7 @@
   justify-content: center;
   flex-direction: column;
   margin-bottom: 1rem;
+  padding: 2rem;
 }
 
 .checklist_wrapper {
@@ -70,3 +71,16 @@
 .max {
   max-width: 50rem;
 }
+
+/* stylelint-disable */
+.check_wrap input[type="checkbox"]:checked+label {
+  background-color: var(----backgroundColor);
+  border: .3rem solid var(--succes);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.check_wrap input[type="checkbox"] {
+  display: none;
+}
+/* stylelint-enable */
