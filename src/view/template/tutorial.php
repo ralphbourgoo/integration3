@@ -7,8 +7,12 @@
     <h1 class="hidden">Stap 1</h1>
     <div class="tutorial_wrapper">
       <div>
-        <div class="popup" onclick="myFunction()"><img src="assets/img/logo/info.svg" alt="info">
-          <span class="popuptext" id="myPopup">Hallo dit is een simpele Popup!</span>
+        <button id="buttonTip1" class="modal_button"><img src="assets/img/logo/info.svg" alt="info"></button>
+        <div id="modalTip1" class="modaltip1">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p><span class="i">i :</span> Probeer zoveel mogelijk lucht te houden in de zak, dan gaan de plooien er sneller uit. Je kan gebruikmaken van een zwaar voorwerp die je op de voet van de ballon plaatst. Dan zal de lucht niet ontsnappen. </p>
+          </div>
         </div>
         <h2 class="hidden">Animation</h2>
         <div class="lottie_wrap">
@@ -42,7 +46,13 @@
     <h1 class="hidden">Stap 2</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
+        <button id="buttonTip2" class="modal_button"><img src="assets/img/logo/info.svg" alt="info"></button>
+        <div id="modalTip2" class="modaltip1">
+          <div class="modal-content">
+            <span class="close2" >&times;</span>
+            <p><span class="i">i :</span> Als alternatief kan je ook hard papier gebruiken en vervolgens hieraan lusjes vastmaken. Hoe steviger papier, hoe beter. Het is de versteviging van de ballon en een van de meest belangerijke onderdelen. </p>
+          </div>
+        </div>
         <h2 class="hidden">Animation</h2>
         <div class="lottie_wrap">
           <div id="lottie-stap2" class="lottie_tutorial stap2"></div>
