@@ -223,3 +223,48 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.close3 {
+  color: white;
+  font-size: 3rem;
+  float: right;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close4 {
+  color: white;
+  font-size: 3rem;
+  float: right;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.close4:hover,
+.close4:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close5 {
+  color: white;
+  font-size: 3rem;
+  float: right;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.close5:hover,
+.close5:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

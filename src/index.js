@@ -6,3 +6,6 @@ import './js/validation.js';
 import './js/stappen.js';
 import './js/webfont.js';
 import './js/popup.js';
+import './js/popup3.js';
+import './js/popup4.js';
+import './js/popup5.js';

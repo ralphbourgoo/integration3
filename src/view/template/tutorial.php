@@ -81,7 +81,13 @@
     <h1 class="hidden">Stap 3</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
+        <button id="buttonTip3" class="modal_button"><img src="assets/img/logo/info.svg" alt="info"></button>
+        <div id="modalTip3" class="modaltip1">
+          <div class="modal-content">
+            <span class="close3" >&times;</span>
+            <p><span class="i">i :</span> In plaats van de mand uit de kit, kan je ook een klein doosje gebruiken. Het touw is ook vervangbaar door een normaal touw. Deze kan je van vastmaken met ducktape aan de doos en vastknopen aan de lusjes die je in vorige stap gemaakt hebt. </p>
+          </div>
+        </div>
         <h2 class="hidden">Animation</h2>
         <div class="lottie_wrap">
           <div id="lottie-stap3" class="lottie_tutorial stap3"></div>
@@ -114,7 +120,13 @@
     <h1 class="hidden">Stap 4</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt="info"></a>
+        <button id="buttonTip4" class="modal_button"><img src="assets/img/logo/info.svg" alt="info"></button>
+        <div id="modalTip4" class="modaltip1">
+          <div class="modal-content">
+            <span class="close4" >&times;</span>
+            <p><span class="i">i :</span> De ballon vullen met warme lucht is de balngrijkste stap van de tutorial. Zorg ervoor dat het ook niet te warm is. De ideale temperatuur is tussen de 60°-70°.  </p>
+          </div>
+        </div>
         <h2 class="hidden">Animation</h2>
         <div class="lottie_wrap">
           <div id="lottie-stap4" class="lottie_tutorial stap4"></div>
@@ -134,7 +146,13 @@
     <h1 class="hidden">Stap 5</h1>
     <div class="tutorial_wrapper">
       <div>
-        <a href=""><img src="assets/img/logo/info.svg" alt=""></a>
+        <button id="buttonTip5" class="modal_button"><img src="assets/img/logo/info.svg" alt="info"></button>
+        <div id="modalTip5" class="modaltip1">
+          <div class="modal-content">
+            <span class="close5" >&times;</span>
+            <p><span class="i">i :</span> Maak een touw vast aan de onderkant van de mand, zo kan de ballon niet weg vliegen en heb je er meer controle over.</p>
+          </div>
+        </div>
         <h2 class="hidden">Animation</h2>
         <div class="lottie_wrap">
           <div id="lottie-stap5" class="lottie_tutorial stap5"></div>
