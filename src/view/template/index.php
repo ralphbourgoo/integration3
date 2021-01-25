@@ -32,7 +32,7 @@
     </div>
   </section>
   <section class="socials_wrapper">
-    <p class="socials_text">Blijf op de hooghte ! Volg ons op <a class="white" href="https://www.facebook.com/MakerFaireGent/">Facebook</a>, <a class="white" href="https://www.instagram.com/makerfairegent/">Instagram</a>, <a class="white" href="https://twitter.com/makerfairegent">Twitter</a>. Of schrijf je in op onze newsletter.</p>
+    <p class="socials_text">Blijf op de hoogte ! Volg ons op <a class="white" href="https://www.facebook.com/MakerFaireGent/">Facebook</a>, <a class="white" href="https://www.instagram.com/makerfairegent/">Instagram</a>, <a class="white" href="https://twitter.com/makerfairegent">Twitter</a>. Of schrijf je in op onze newsletter.</p>
   </section>
   <section class="faire_wrapper">
     <img src="assets/img/logo/logo.svg" class="logo_home" alt="logo makersfaire">
