@@ -2,7 +2,7 @@
   <h1 class="hidden">Homepage</h1>
   <section class="header_wrapper">
     <div>
-      <lottie-player class="lottie_header" src="https://assets4.lottiefiles.com/packages/lf20_jbuisx7z.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+      <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_vtmlpnjn.json" mode="bounce" background="transparent"  speed="1"  class="lottie_header"  loop  autoplay></lottie-player>
     </div>
     <div class="header_wrap">
       <h2 class="header__title">Bouw je eigen luchtballon. </h2>
