@@ -1,20 +1,20 @@
-import WebFont from 'webfontloader'
+import WebFont from 'webfontloader';
 
 WebFont.load({
- custom: {
+  custom: {
     families: [
-     'AvenirLight',
-     'AvenirBook',
-     'AvenirHeavy',
-     'AvenirBlack',
-     'AvenirMedium',
-     'MontserratBlack',
-     'MontserratBold',
-     'MontserratExtraBold',
-     'MontserratRegular',
-     'MontserratLight'
+      'avenir-light',
+      'avenir-book',
+      'avenir-heavy',
+      'avenir-black',
+      'avenir-medium',
+      'montserrat-black',
+      'montserrat-bold',
+      'montserrat-extrabold',
+      'montserrat-regular',
+      'montserrat-light'
     ],
-   urls: ['assets/fonts.css']
+    urls: ['assets/fonts.css']
   }
 });
 

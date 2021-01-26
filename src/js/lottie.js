@@ -1,17 +1,17 @@
-import lottie from 'lottie-web'
+import lottie from 'lottie-web';
 
-let fillBalloon = document.querySelector('.stap1');
-let buttonBalloon = document.querySelector('.one');
-let buisBevestigen = document.querySelector('.stap2');
-let buttonBuis = document.querySelector('.two');
-let touwBevestigen = document.querySelector('.stap3');
-let buttonTouw = document.querySelector('.three');
-let ballonOpwarmen = document.querySelector('.stap4');
-let buttonOpwarmen = document.querySelector('.four');
-let ballonOpstijgen = document.querySelector('.stap5');
-let buttonOpstijgen = document.querySelector('.five');
+const fillBalloon = document.querySelector('.stap1');
+const buttonBalloon = document.querySelector('.one');
+const buisBevestigen = document.querySelector('.stap2');
+const buttonBuis = document.querySelector('.two');
+const touwBevestigen = document.querySelector('.stap3');
+const buttonTouw = document.querySelector('.three');
+const ballonOpwarmen = document.querySelector('.stap4');
+const buttonOpwarmen = document.querySelector('.four');
+const ballonOpstijgen = document.querySelector('.stap5');
+const buttonOpstijgen = document.querySelector('.five');
 
-let fillBalloonAnim = lottie.loadAnimation({
+const fillBalloonAnim = lottie.loadAnimation({
   container: fillBalloon,
   renderer: 'svg',
   loop: false,
@@ -23,7 +23,7 @@ buttonBalloon.addEventListener('click', function() {
   fillBalloonAnim.playSegments([0,180], true);
 });
 
-let buisBevestigenAnim = lottie.loadAnimation({
+const buisBevestigenAnim = lottie.loadAnimation({
   container: buisBevestigen,
   renderer: 'svg',
   loop: false,
@@ -35,7 +35,7 @@ buttonBuis.addEventListener('click', function() {
   buisBevestigenAnim.playSegments([0,130], true);
 });
 
-let touwBevestigenAnim = lottie.loadAnimation({
+const touwBevestigenAnim = lottie.loadAnimation({
   container: touwBevestigen,
   renderer: 'svg',
   loop: false,
@@ -47,7 +47,7 @@ buttonTouw.addEventListener('click', function() {
   touwBevestigenAnim.playSegments([0,146], true);
 });
 
-let ballonOpwarmenAnim = lottie.loadAnimation({
+const ballonOpwarmenAnim = lottie.loadAnimation({
   container: ballonOpwarmen,
   renderer: 'svg',
   loop: false,
@@ -59,7 +59,7 @@ buttonOpwarmen.addEventListener('click', function() {
   ballonOpwarmenAnim.playSegments([0,180], true);
 });
 
-let ballonOpstijgenAnim = lottie.loadAnimation({
+const ballonOpstijgenAnim = lottie.loadAnimation({
   container: ballonOpstijgen,
   renderer: 'svg',
   loop: false,

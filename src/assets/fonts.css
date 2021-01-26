@@ -1,60 +1,59 @@
 @font-face {
-  font-family: 'AvenirBlack';
+  font-family: avenir-black;
   src: url('./fonts/Avenir-Black.woff2') format('woff2'),
        url('./fonts/Avenir-Black.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'AvenirBook';
-  src: url('./fonts/Avenir-Book.woff2') format('woff2'),
+  font-family: avenir-book;
+  src: url('.fonts/Avenir-Book.woff2') format('woff2'),
        url('./fonts/Avenir-Book.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'AvenirHeavy';
+  font-family: avenir-heavy;
   src: url('./fonts/Avenir-Heavy.woff2') format('woff2'),
        url('./fonts/Avenir-Heavy.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'AvenirHeavy';
-  src: url('./fonts/Avenir-Heavy.woff2') format('woff2'),
-       url('./fonts/Avenir-Heavy.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'AvenirLight';
+  font-family: avenir-light;
   src: url('./fonts/Avenir-Light.woff2') format('woff2'),
        url('./fonts/Avenir-Light.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'AvenirMedium';
+  font-family: avenir-medium;
   src: url('./fonts/Avenir-Medium.woff2') format('woff2'),
        url('./fonts/Avenir-Medium.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'MontserratBlack';
-  src: url('./fonts/Montserrat-Black.woff2') format('woff2');
+  font-family: montserrat-black;
+  src: url('./fonts/Montserrat-Black.woff2') format('woff2'),
+       url('./fonts/Montserrat-Black.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'MontserratBold';
-  src: url('./fonts/Montserrat-Bold.woff2') format('woff2');
+  font-family: montserrat-bold;
+  src: url('./fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('./fonts/Montserrat-ExtraBold.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'MontserratExtraBold';
-  src: url('./fonts/Montserrat-ExtraBold.woff2') format('woff2');
+  font-family: montserrat-extrabold;
+  src: url('./fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+       url('./fonts/Montserrat-ExtraBold.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'MontserratLight';
-  src: url('./fonts/Montserrat-Light.woff2') format('woff2');
+  font-family: montserrat-light;
+  src: url('./fonts/Montserrat-Light.woff2') format('woff2'),
+       url('./fonts/Montserrat-Light.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'MontserratRegular';
-  src: url('./fonts/Montserrat-Light.woff2') format('woff2');
+  font-family: montserrat-regular;
+  src: url('./fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('./fonts/Montserrat-Regular.woff') format('woff');
 }
